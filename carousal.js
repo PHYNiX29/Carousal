@@ -21,24 +21,24 @@ lar.addEventListener("click",()=>{
             carousal_img_bg.src=img2;
             prev_img.src=img3;
             next_img.src=img1;
-            head.innerHTML="<i>GREEN</i>"
-            para.innerHTML="<i>-green</i>"
+            head.innerHTML="<i>GREEN</i>";
+            para.innerHTML="<i>-green</i>";
             break
         case img2:
             carousal_img.src = img3;
             carousal_img_bg.src=img3;
             prev_img.src=img1;
             next_img.src=img2;
-            head.innerHTML="BLUE"
-            para.innerHTML="blue"
+            head.innerHTML="...";
+            para.innerHTML="-i'm too tired to name this";
             break
         case img3:
             carousal_img.src = img1;
             carousal_img_bg.src=img1;
             prev_img.src=img2;
             next_img.src=img3;
-            head.innerHTML="WHITE MOUNTAINS"
-            para.innerHTML="-I dont know i just picked it from the internet"
+            head.innerHTML="WHITE MOUNTAINS";
+            para.innerHTML="-I dont know i just picked it from the internet";
             break
     }    
 })
@@ -52,24 +52,24 @@ function right_move(){
             carousal_img_bg.src=img3;
             prev_img.src=img1;
             next_img.src=img2;
-            head.innerHTML="BLUE"
-            para.innerHTML="-blue"
+            head.innerHTML="...";
+            para.innerHTML="-i'm too tired to name this";
             break
         case img3:
             carousal_img.src = img2;
             carousal_img_bg.src=img2;
             prev_img.src=img3;
             next_img.src=img1;
-            head.innerHTML="<i>GREEN</i>"
-            para.innerHTML="<i>-green</i>"
+            head.innerHTML="<i>GREEN</i>";
+            para.innerHTML="<i>-green</i>";
             break
         case img2:
             carousal_img.src = img1;
             carousal_img_bg.src=img1;
             prev_img.src=img2;
             next_img.src=img3;
-            head.innerHTML="WHITE MOUNTAINS"
-            para.innerHTML="-I dont know i just picked it from the internet"
+            head.innerHTML="WHITE MOUNTAINS";
+            para.innerHTML="-I dont know i just picked it from the internet";
             break
     }    
 }
