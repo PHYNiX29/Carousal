@@ -75,8 +75,5 @@ function right_move(){
 }
 
 rar.addEventListener("click",right_move);
-
-while(true){
-    setTimeout(right_move,3000);
-}
+setTimeout(right_move,3000);
 
