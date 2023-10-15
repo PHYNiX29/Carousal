@@ -106,3 +106,13 @@
 i{
     color: white;
 }
+@media(max-width:600px){
+    #carousal-img-div{
+        width: 40vw;
+    };
+    #text{
+        position: unset;
+        position: absolute;
+        top:60vh
+        left: 0vw;
+    }
